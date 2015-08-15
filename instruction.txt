@@ -1,0 +1,25 @@
+1)write comm port in 'port.txt' file
+
+2)copy javax.comm.properties file save in below mention location
+
+C:\Program Files\Java\jdk1.6.0_24\jre\lib
+C:\Program Files\Java\jre6\lib
+
+3)copy RXTXComm.jar from lib folder and save in below mention location
+
+C:\Program Files\Java\jre6\lib\ext
+C:\Program Files\Java\jdk1.6.0_24\jre\lib\ext
+
+4)copy librxtxparallel.dll and libserial.dll and save in below location
+
+C:\Program Files\Java\jdk1.6.0_24\jre\bin
+C:\Program Files\Java\jre6\bin
+
+
+rname run.txt as run.bat
+
+
+
+
+
+

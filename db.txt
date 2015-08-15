@@ -1,0 +1,8 @@
+create database local_vehicle_tracking;
+use local_vehicle_tracking;
+create table addvehicle(owner_name varchar(50),vehicle_no varchar(50),vehicle_type varchar(50),contact_no varchar(12),address varchar(100));
+
+create table addparking(building_floors int,blocks int);
+
+create table parking(vehicle_no varchar(50),floor_no int,block_no int,
+in_time timestamp,out_time timestamp,status varchar(30));
